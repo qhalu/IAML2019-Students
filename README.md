@@ -126,14 +126,14 @@ Before installing required modules, we need to obtain the repository since it in
 1. Navigate back to your home directory: `cd`
 1. Now you have two options:
     1. If **and only if** you are familiar and confident with using Git/GitHub, you can initialize a git directory, add the above repo as remote and pull everything into your local directory, something like:
-        * `git clone https://github.com/michael-camilleri/IAML2018 iaml2018
-    1. **OTHERWISE**, we recommend that you directly download a .zip file from https://github.com/michael-camilleri/IAML2018 which will contain everything you need and save it in the folder you have just created. You can do this from the terminal by typing (this also makes the directory structure equivalent to that obtained by git clone):
-        * `wget https://github.com/michael-camilleri/IAML2018/archive/master.zip`
+        * `git clone https://github.com/psambit9791/IAML2019-Students iaml2019`
+    1. **OTHERWISE**, we recommend that you directly download a .zip file from https://github.com/psambit9791/IAML2019-Students which will contain everything you need and save it in the folder you have just created. You can do this from the terminal by typing (this also makes the directory structure equivalent to that obtained by git clone):
+        * `wget http://github.com/psambit9791/IAML2019-Students/archive/master.zip`
         * `unzip master.zip`
-        * `mv IAML2018-master iaml2018`
+        * `mv IAML2019-Students-master iaml2019`
         * `rm master.zip`
 1. Navigate to the new directory
-    * `cd iaml2018`
+    * `cd iaml2019`
 
 ### *IMPORTANT*
 Supporting and teaching git is not in scope for this course so please only use it if you are happy to google your own solutions! That being said, git is a better alternative if you are familiar with it. We reccommend that you work with your own branch/fork as the git repository is read-only.
@@ -200,11 +200,11 @@ End-of-central-directory signature not found.  Either this file is not
   the last disk(s) of this archive.
 ```
 means that the file you've downloaded is likely incomplete. Try downloading from
-the [GitHub repo](https://github.com/michael-camilleri/IAML2018) directly by clicking the green button and downloading the zip.
+the [GitHub repo](https://github.com/psambit9791/IAML2019-Students) directly by clicking the green button and downloading the zip.
 
 ### wget: command not found
 You do not have wget installed! Either install it, download from
-the [GitHub repo](https://github.com/michael-camilleri/IAML2018) directly by clicking the green button and download the zip, or try using another program like curl e.g. `curl -LOk https://github.com/michael-camilleri/IAML2018/archive/master.zip`
+the [GitHub repo](https://github.com/psambit9791/IAML2019-Students) directly by clicking the green button and download the zip, or try using another program like curl e.g. `curl -LOk https://github.com/michael-camilleri/IAML2018/archive/master.zip`
 
 ### conda: command not found or 'Conda never works in new terminal'
 DICE issue: DICE has a different set of bash startup mechanism, and you may need
